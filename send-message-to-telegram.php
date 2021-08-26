@@ -90,6 +90,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo json_encode($msgs);;
     }
 } else {
-  header ("Location: https://github.com/AbdullohOrg/Myresume/blob/main/index.html");
+  header ("Location: https://github.com/AbdullohOrg/Myresume/index.html");
 }
 ?>
